@@ -1,7 +1,7 @@
 services:
   - name: emotion-detector
     env: python
-    buildCommand: python app.py
-    startCommand: python app.py
+    buildCommand: python index.py
+    startCommand: python index.py
 
     
